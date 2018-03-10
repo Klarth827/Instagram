@@ -226,6 +226,7 @@
 				TargetAttributes = {
 					BAD2F1342048420E002C8F27 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RQXJNU6F5Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -462,6 +463,7 @@
 			baseConfigurationReference = 557002B6D41A148148BABF4D /* Pods-Instagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RQXJNU6F5Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Instagram",
@@ -480,6 +482,7 @@
 			baseConfigurationReference = ED3612B94A9EFB4430002523 /* Pods-Instagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RQXJNU6F5Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Instagram",

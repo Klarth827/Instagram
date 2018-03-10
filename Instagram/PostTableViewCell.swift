@@ -42,24 +42,18 @@ class PostTableViewCell: UITableViewCell {
         likeLabel.text = "\(likeNumber)"
         
         let formatter = DateFormatter()
-        formatter.locale = NSLocale(localeIdentifier: "jp_JP") as Locale!
+        formatter.locale = NSLocale(localeIdentifier: "ja_JP") as Locale!
         formatter.dateFormat = "yyyy-MM-dd HH:mm"
         
-        let dateString: String = formatter.string(from: postData.date! as Date)
+        let dateString:String = formatter.string(from: postData.date! as Date)
         self.dateLabel.text = dateString
         
         if postData.isLiked {
-            
             let buttonImage = UIImage(named: "like_exist")
             self.likeButton.setImage(buttonImage, for: UIControlState.normal)
-            
         } else {
             let buttonImage = UIImage(named: "like_none")
             self.likeButton.setImage(buttonImage, for: UIControlState.normal)
-            
-            
         }
-        
     }
-    
 }

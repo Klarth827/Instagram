@@ -31,16 +31,13 @@ class PostData: NSObject {
         
         self.name = valueDictionary["name"] as? String
         
-        self.caption =  valueDictionary["caption"] as? String
+        self.caption = valueDictionary["caption"] as? String
         
         let time = valueDictionary["time"] as? String
-        
         self.date = NSDate(timeIntervalSinceReferenceDate: TimeInterval(time!)!)
         
         if let likes = valueDictionary["likes"] as? [String] {
-            
             self.likes = likes
-            
         }
         
         for likeId in self.likes {
@@ -49,6 +46,5 @@ class PostData: NSObject {
                 break
             }
         }
-        
     }
 }
