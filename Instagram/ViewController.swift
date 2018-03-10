@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
     func setupTab(){
         
-        //画像のファイル名を指定してEXTabBarControllerを作成する
+        //画像のファイル名を指定してESTabBarControllerを作成する
         
         let tabBarController:ESTabBarController! = ESTabBarController(tabIconNames: ["home","camera","setting"])
         

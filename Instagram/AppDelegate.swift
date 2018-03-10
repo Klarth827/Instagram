@@ -18,6 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
      FirebaseApp.configure() //追加
+        
+        //Adobeの管理画面で登録したあpりの　API キーと　Client secret　の文字列を設定する
+        
+        AdobeUXAuthManager.shared().setAuthenticationParametersWithClientID("8c34ddaffa2444b59081a7630167e3d3", withClientSecret: "4dd07aff-2617-4ac2-bc81-82813d777cbb")
         return true
     }
 

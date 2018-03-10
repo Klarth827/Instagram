@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PostTableViewCell" customModule="Instagram" customModuleProvider="target">
+            <connections>
+                <outlet property="captionLabel" destination="bcB-Z7-ZZq" id="yyE-Qo-y9P"/>
+                <outlet property="dateLabel" destination="0hM-w1-Cnq" id="Y1Z-tm-6QW"/>
+                <outlet property="likeButton" destination="Ris-Ws-gZW" id="upn-qR-ene"/>
+                <outlet property="likeLabel" destination="VJE-bm-hjE" id="dAF-qG-mLB"/>
+                <outlet property="postImageView" destination="cVN-Se-mLd" id="qcO-yQ-toQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cVN-Se-mLd">
+                    <rect key="frame" x="0.0" y="10" width="334" height="334"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="cVN-Se-mLd" secondAttribute="height" multiplier="1:1" id="osU-1q-JQN"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJE-bm-hjE">
+                    <rect key="frame" x="60" y="363.5" width="40" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="cnu-rS-4Br"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hM-w1-Cnq">
+                    <rect key="frame" x="110" y="363.5" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcB-Z7-ZZq">
+                    <rect key="frame" x="10" y="404" width="314" height="66"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ris-Ws-gZW">
+                    <rect key="frame" x="10" y="354" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Yws-Zm-lAK"/>
+                        <constraint firstAttribute="width" constant="40" id="cQG-BL-Nhl"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="like_none"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bcB-Z7-ZZq" secondAttribute="bottom" constant="10" id="H1j-Rk-TGc"/>
+                <constraint firstItem="bcB-Z7-ZZq" firstAttribute="top" secondItem="Ris-Ws-gZW" secondAttribute="bottom" constant="10" id="Lca-S4-EnE"/>
+                <constraint firstItem="cVN-Se-mLd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="WPH-m2-SlR"/>
+                <constraint firstAttribute="trailing" secondItem="cVN-Se-mLd" secondAttribute="trailing" id="ZYj-Tv-i12"/>
+                <constraint firstAttribute="trailing" secondItem="bcB-Z7-ZZq" secondAttribute="trailing" constant="10" id="bv3-vf-pEk"/>
+                <constraint firstItem="VJE-bm-hjE" firstAttribute="centerY" secondItem="Ris-Ws-gZW" secondAttribute="centerY" id="dUq-Km-KjU"/>
+                <constraint firstItem="VJE-bm-hjE" firstAttribute="leading" secondItem="Ris-Ws-gZW" secondAttribute="trailing" constant="10" id="eto-o9-ncB"/>
+                <constraint firstItem="0hM-w1-Cnq" firstAttribute="leading" secondItem="VJE-bm-hjE" secondAttribute="trailing" constant="10" id="g60-Vw-y8v"/>
+                <constraint firstItem="Ris-Ws-gZW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="grz-Rg-l7f"/>
+                <constraint firstItem="bcB-Z7-ZZq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="hgy-df-PJQ"/>
+                <constraint firstItem="Ris-Ws-gZW" firstAttribute="top" secondItem="cVN-Se-mLd" secondAttribute="bottom" constant="10" id="sYk-ui-OKX"/>
+                <constraint firstItem="0hM-w1-Cnq" firstAttribute="centerY" secondItem="Ris-Ws-gZW" secondAttribute="centerY" id="wYH-rF-BkT"/>
+                <constraint firstItem="cVN-Se-mLd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="x6v-BM-Zzj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-75" y="108"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="like_none" width="40" height="40"/>
+    </resources>
+</document>
