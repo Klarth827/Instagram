@@ -35,8 +35,8 @@
 		BAD2F172204FC6C9002C8F27 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2F171204FC6C9002C8F27 /* OpenGLES.framework */; };
 		BAD2F174204FC6DE002C8F27 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2F173204FC6DE002C8F27 /* QuartzCore.framework */; };
 		BAD2F178204FFF5C002C8F27 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2F177204FFF5C002C8F27 /* Const.swift */; };
-		BAFDA9A7205289730027B921 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA9A5205289730027B921 /* PostTableViewCell.swift */; };
-		BAFDA9A8205289730027B921 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFDA9A6205289730027B921 /* PostTableViewCell.xib */; };
+		BADCEFD42056B32400BFAFE6 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCEFD22056B32400BFAFE6 /* PostTableViewCell.swift */; };
+		BADCEFD52056B32400BFAFE6 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BADCEFD32056B32400BFAFE6 /* PostTableViewCell.xib */; };
 		F30E5A35CC849283F29AD4F0 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3317BD86140DFCF343E728 /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,8 +87,8 @@
 		BAD2F173204FC6DE002C8F27 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BAD2F176204FF3A5002C8F27 /* Instagram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instagram-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		BAD2F177204FFF5C002C8F27 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
-		BAFDA9A5205289730027B921 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
-		BAFDA9A6205289730027B921 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		BADCEFD22056B32400BFAFE6 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		BADCEFD32056B32400BFAFE6 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		ED3612B94A9EFB4430002523 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,9 +156,9 @@
 				BAD2F14C204842EE002C8F27 /* HomeViewController.swift */,
 				BAD2F14E20484315002C8F27 /* ImageSelectViewController.swift */,
 				BAD2F1502048432A002C8F27 /* PostViewController.swift */,
+				BADCEFD22056B32400BFAFE6 /* PostTableViewCell.swift */,
+				BADCEFD32056B32400BFAFE6 /* PostTableViewCell.xib */,
 				BACF2C8B20515B9F001C4CF6 /* PostData.swift */,
-				BAFDA9A5205289730027B921 /* PostTableViewCell.swift */,
-				BAFDA9A6205289730027B921 /* PostTableViewCell.xib */,
 				BAD2F1522048433F002C8F27 /* SettingViewController.swift */,
 				BAD2F13C2048420E002C8F27 /* Main.storyboard */,
 				BAD2F177204FFF5C002C8F27 /* Const.swift */,
@@ -255,7 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAD2F1432048420E002C8F27 /* LaunchScreen.storyboard in Resources */,
-				BAFDA9A8205289730027B921 /* PostTableViewCell.xib in Resources */,
+				BADCEFD52056B32400BFAFE6 /* PostTableViewCell.xib in Resources */,
 				BAD2F155204D12ED002C8F27 /* GoogleService-Info.plist in Resources */,
 				BAD2F1402048420E002C8F27 /* Assets.xcassets in Resources */,
 				BAD2F13E2048420E002C8F27 /* Main.storyboard in Resources */,
@@ -337,7 +337,7 @@
 				BAD2F1392048420E002C8F27 /* AppDelegate.swift in Sources */,
 				BAD2F14F20484315002C8F27 /* ImageSelectViewController.swift in Sources */,
 				BAD2F178204FFF5C002C8F27 /* Const.swift in Sources */,
-				BAFDA9A7205289730027B921 /* PostTableViewCell.swift in Sources */,
+				BADCEFD42056B32400BFAFE6 /* PostTableViewCell.swift in Sources */,
 				BAD2F1532048433F002C8F27 /* SettingViewController.swift in Sources */,
 				BAD2F14D204842EE002C8F27 /* HomeViewController.swift in Sources */,
 			);
